@@ -7,7 +7,7 @@
         "Quantity":"10",
         "img":"https://i.ibb.co/vcKXC0v/Acer-Extensa.jpg",
         "Details":"Processor- Intel Celeron N4020 4GB RAM 1TB 5400rpm 2.5 HDD 15.6 HD display",
-        "SupplierName":"Apurbo Islam"
+        "SupplierName":"Soumen Raj"
     },
     {
         "id":2,
@@ -53,6 +53,33 @@
         "img":"https://i.ibb.co/QYpPhsn/Hp-Pentium.jpg",
         "Details":"Processor- Intel Celeron N4020 4GB RAM 1TB 5400rpm 2.5 HDD 15.6 HD display",
         "SupplierName":"Gita Mollick"
+    }
+    {
+        "id":7,
+        "Name":"Acer-extensa",
+        "Price":"35000",
+        "Quantity":"10",
+        "img":"https://i.ibb.co/vcKXC0v/Acer-Extensa.jpg",
+        "Details":"Processor- Intel Celeron N4020 4GB RAM 1TB 5400rpm 2.5 HDD 15.6 HD display",
+        "SupplierName":"Apurbo Islam"
+    },
+    {
+        "id":8,
+        "Name":"Svmsung-vivobook",
+        "Price":"35000",
+        "Quantity":"10",
+        "img":"https://i.ibb.co/k9zrgWb/Asus-Vibobook.jpg",
+        "Details":"Processor- Intel Celeron N4020 4GB RAM 1TB 5400rpm 2.5 HDD 15.6 HD display",
+        "SupplierName":"Adib Chowdhury Akash"
+    },
+    {
+        "id":9,
+        "Name":"Hp-inspiron",
+        "Price":"35000",
+        "Quantity":"10",
+        "img":"https://i.ibb.co/GWr8qF9/Dell-inspiron.jpg",
+        "Details":"Processor- Intel Celeron N4020 4GB RAM 1TB 5400rpm 2.5 HDD 15.6 HD display",
+        "SupplierName":"Mehedi Hasan niloy"
     }
    
     

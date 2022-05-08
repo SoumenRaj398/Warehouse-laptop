@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import "./Register.css";
+import auth from "../../../firebase.init";
+import Sociallogin from '../SocialLogin/Sociallogin';
 
 
 
