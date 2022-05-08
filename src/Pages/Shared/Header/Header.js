@@ -26,8 +26,9 @@ const Header = () => {
       <Nav className="me-auto">
         <Nav.Link className='h4 text-dark' href="#home">Home</Nav.Link>
         
-        <Nav.Link className='h4 text-dark' href="home#reason">Best Warehouse</Nav.Link>
-        <Nav.Link className='h4 text-dark'  to ="home#testimony">Review</Nav.Link>
+        <Nav.Link className='h4 text-dark' href="home#reason">Manage Items</Nav.Link>
+        <Nav.Link className='h4 text-dark'  to ="home#testimony">Add Items</Nav.Link>
+        <Nav.Link className='h4 text-dark'  to ="home#testimony">My Items</Nav.Link>
         { user?
 
         <button className="h3 text-dark btn btn-link  text-decoration-none" onClick={handleSignOut}>SignOut</button>
