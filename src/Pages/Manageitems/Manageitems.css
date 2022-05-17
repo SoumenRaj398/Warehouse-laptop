@@ -1,0 +1,10 @@
+.products-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:20px;
+    text-align: center;
+}
+.product-title{
+    text-align: center;
+    color: blue;
+}

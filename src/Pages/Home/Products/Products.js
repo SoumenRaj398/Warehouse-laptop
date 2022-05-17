@@ -28,7 +28,8 @@ const Products = () => {
           products.map( product => <Product
 
             key ={product._id}
-            product= {product}
+            product = {product}
+            deleteme = {false}
             
             ></Product>)
           }
