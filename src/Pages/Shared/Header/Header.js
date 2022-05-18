@@ -26,6 +26,8 @@ const Header = () => {
       <Nav className="me-auto">
         <Nav.Link className='h4 text-dark' as={Link} to="/home"  href="">Home</Nav.Link>
         <Nav.Link className='h4 text-dark' as={Link} to="/blogs"  href="">Blogs</Nav.Link>
+        <Nav.Link className='h4 text-dark' as={Link} to="/aboutus"  href="">About Us</Nav.Link>
+        <Nav.Link className='h4 text-dark' as={Link} to="/myself"  href="">Myself</Nav.Link>
         {
            user && <>
 

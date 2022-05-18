@@ -14,6 +14,8 @@ import Notfound from './Pages/Shared/NotFound/Notfound';
 import ManageItems from './Pages/Manageitems/Manageitems';
 import UpdateItem from './Pages/UpdateItem/UpdateItem';
 import MyItems from './Pages/MyItems/MyItems';
+import Aboutus from './Pages/AboutUS/Aboutus';
+import Myself from './Pages/Myself/Myself';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element ={<Home></Home>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/aboutus" element={<Aboutus></Aboutus>}></Route>
+        <Route path="/myself" element={<Myself></Myself>}></Route>
         <Route path ="/product/:id" element={
         <Requireauth>
           <UpdateItem></UpdateItem>

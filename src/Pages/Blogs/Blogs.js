@@ -45,15 +45,17 @@ const Blogs = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>3) what is the differences between sql and nosql databases ?</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est laborum.
+          Sql is <strong>relational database management system. </strong>{" "}
+              Nosql is{" "}
+              <strong>non relational database management system. </strong>
+              Sql has <strong>fixed schema</strong>. But Nosql has{" "}
+              <strong>dynamic schema.</strong> Sql is not suited for{" "}
+              <strong>hierarchical data storage</strong>. But Nosql is{" "}
+              <strong>suited.</strong> Sql is{" "}
+              <strong>Vertically scalable.</strong> But Nosql is{" "}
+              <strong>Horizontally scalable.</strong>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
