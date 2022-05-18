@@ -2,8 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { useForm } from "react-hook-form";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 const UpdateItem = () => {
+
+    const navigate = useNavigate();
+
+    const handleAddProduct = () => {
+      navigate("/manage");
+    };
     const { register, handleSubmit } = useForm();
     const [user, loading, error] = useAuthState(auth);
     const [product, setProduct] = useState({});
@@ -51,6 +57,7 @@ const UpdateItem = () => {
     };
     return (
         <div className='w-50 mx-auto'>
+
             <h2>Please Update </h2>
             <form className = 'd-flex flex-column'  onSubmit={(e) => handleUpdateProduct(e)}>
       <input className="mb-2"  defaultValue={product.name} {...register("name", { required: true, maxLength: 20 })} />
@@ -66,6 +73,13 @@ const UpdateItem = () => {
                   setDelivered(!delivered);
                 } } />
     </form>
+
+    <button
+          className="btn btn-danger my-3 mt-5 mb-5 mx-auto d-block"
+          onClick={() => handleAddProduct()}
+        >
+          Manage All Items
+        </button>
 
             
         </div>
