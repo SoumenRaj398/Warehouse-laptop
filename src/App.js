@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element ={<Home></Home>}></Route>
-        <Route path="/Blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path ="/product/:id" element={
         <Requireauth>
           <UpdateItem></UpdateItem>

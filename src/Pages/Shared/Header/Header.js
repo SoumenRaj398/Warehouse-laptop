@@ -25,7 +25,7 @@ const Header = () => {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link className='h4 text-dark' as={Link} to="/home"  href="">Home</Nav.Link>
-
+        <Nav.Link className='h4 text-dark' as={Link} to="/blogs"  href="">Blogs</Nav.Link>
         {
            user && <>
 
