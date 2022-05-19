@@ -1,6 +1,6 @@
 # Laptop warehouse management
 
-the live site link is() 
+the live site link is(https://warhouse-laptop-client.web.app) 
 
 ## In this project
 here use bootstrap, react bootstrap to responsive the te site.

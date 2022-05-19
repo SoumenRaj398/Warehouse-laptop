@@ -9,7 +9,7 @@ const Additems = () => {
     const onSubmit = data => {
     
         console.log(data);
-        const url = `http://localhost:5000/laptop`;
+        const url = `https://nameless-lowlands-90907.herokuapp.com/laptop`;
 
         fetch(url,{
             method:'Post',

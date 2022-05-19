@@ -6,7 +6,7 @@ const useLaptops = () => {
 
   useEffect( () => {
 
-    fetch('http://localhost:5000/laptop')
+    fetch('https://nameless-lowlands-90907.herokuapp.com/laptop')
     .then(res => res.json())
     .then(data => setProducts(data));
 

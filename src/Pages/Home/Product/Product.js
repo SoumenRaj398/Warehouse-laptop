@@ -23,7 +23,7 @@ const Product = ({product,deleteme}) => {
           console.log(id);
           
           
-              const url = `http://localhost:5000/laptop/${id}`;
+              const url = `https://nameless-lowlands-90907.herokuapp.com/laptop/${id}`;
 
             fetch(url, {
                 method: "DELETE",

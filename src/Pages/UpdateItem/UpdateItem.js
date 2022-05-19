@@ -19,7 +19,7 @@ const UpdateItem = () => {
 
     useEffect(() => {
         
-        const url = `http://localhost:5000/product/${id}`;
+        const url = `https://nameless-lowlands-90907.herokuapp.com/product/${id}`;
         fetch(url)
           .then((res) => res.json())
           .then((data) => {
@@ -36,7 +36,7 @@ const UpdateItem = () => {
             data.quantity--;
         }
         console.log(data);
-        const url = `http://localhost:5000/laptop/${id}`;
+        const url = `https://nameless-lowlands-90907.herokuapp.com/laptop/${id}`;
 
         fetch(url,{
             method:'PUT',
